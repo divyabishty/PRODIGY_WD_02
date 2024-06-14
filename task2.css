@@ -1,0 +1,56 @@
+
+  .bothdiv{
+    margin-top: 80px;
+    background-color: #E50914;
+border: 2px solid black;
+  }
+  .btns{
+white-space: nowrap;
+background-color: white;
+  }
+  .btnsh{
+     color: #E50914;
+     font-size: 3rem;
+    animation: animate 5s linear infinite;
+  }
+
+  @keyframes animate{
+   100%{
+transform: translate(100%,0) ;
+   } 
+  }
+  .container {
+    margin-bottom: 20px;
+    width: 50%;
+    height: 50%;
+    display: block;
+margin-left: 260px;
+    background-color:white;
+align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(108, 108, 219, 0.1);
+  }
+  
+  #timer {
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
